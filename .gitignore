@@ -1,0 +1,27 @@
+
+# Build files
+build/
+
+# Runtime storage and downloads
+storage/
+downloads/
+
+# Local ExchangeHub data
+.exchangehub/
+.exchangehub_uploads/
+.exchangehub_download_history.tsv
+
+# Partial transfers
+*.part
+
+# Compiled files
+*.o
+*.out
+
+# IDE and OS files
+.vscode/
+.DS_Store
+
+# Old root-level executables
+/client
+/server
